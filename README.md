@@ -1,36 +1,38 @@
 # Dev Semi-Senior - CODIFICO
 
-## Game - Uno
+## Game - Poker
 
 ### Requerimiento
-Construir una aplicación web para una personas basado en el famoso juego de **UNO** utilizando cualquier tecnología en front-end.
+Construir una aplicación web para una personas basado en el famoso juego de **Poker** utilizando cualquier tecnología en front-end y tecnologías Microsoft en back-end.
 
 ### Aclaraciones
 Para el correcto desarrollo de la prueba, es necesario que tenga en cuenta los siguientes puntos:
++ Clone el repositorio y trabaje en la solución `Codifico.SemiSenior.sln`.
 + Cree un proyecto privado de **GitLab** (free) o un repositorio privado de **GitHub** ($).
 + Otorgue permisos y acceso a **@CJavierSaldana** para realizar las pertinentes observaciones.
 + Tenga en cuenta que la aplicación será ejecutada en otras máquinas. Asegúrese de no tener referencias locales.
-+ Dibuje las cartas lo mejor posible, no es necesario que sean exactas.
++ No es necesario que se preocupe por las cartas. Encontrará un proyecto web con las cartas disponibles.
 
 ### Bonus
 + Usted puede utilizar todas las tecnologías que vea conveniente para cumplir con el requerimiento. No obstante, la utilización de algunas en particular darán puntos adicionales a la hora de la revisión del código:
-   + SignalR.
-   + Angular.
+   + MCV | WebApi
+   + Angular | AngularJS.
    + Bootstrap.
 + Código limpio.
-+ Aplicar arquitectura de la aplicación (front).
 + Seguir principio SOLID.
 + Codificación en inglés. 
 + Realice distintos commits evidenciando el progreso.
 
 ### Mecánicas
-+ Habrán 3 jugadores en la aplicación. 
-   + Humano
-   + AI_1
-   + AI_2
-+ Realice una implementación simple basada en random para las desiciones de la AI.
-+ Relice timeouts en los cambios de turnos y así ver el progreso del juego.
-+ Declarar un ganador y dar la opción de reiniciar.  
++ La aplicación al iniciar mostrará 5 cartas al azar y un resumen de las cartas listadas.
++ La aplicación tendrá un botón para volver a repartir las cartas y el resumen deberá ser actualizado. 
++ La selección aleatoria será en el lado del servidor (C#).
++ El analisis/resumen de las cartas expuestas debe ser en cliente (JS). 
+   + Cuantos pares?
+   + Cuantos trios?
+   + Hay escalera? 
+   + Hay poker?
+   + Hay Color?
 
 #### Info
 + Javiers@nserio.com
