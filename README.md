@@ -3,7 +3,7 @@
 ## Game - Poker
 
 ### Requerimiento
-Construir una aplicación web para una personas basado en el famoso juego de **Poker** utilizando cualquier tecnología en front-end y tecnologías Microsoft en back-end.
+Construir una aplicación web para una persona basado en el famoso juego de **Poker** utilizando cualquier tecnología en front-end y tecnologías Microsoft en back-end.
 
 ### Aclaraciones
 Para el correcto desarrollo de la prueba, es necesario que tenga en cuenta los siguientes puntos:
@@ -27,11 +27,11 @@ Para el correcto desarrollo de la prueba, es necesario que tenga en cuenta los s
 + La aplicación al iniciar mostrará 5 cartas al azar y un resumen de las cartas listadas.
 + La aplicación tendrá un botón para volver a repartir las cartas y el resumen deberá ser actualizado. 
 + La selección aleatoria será en el lado del servidor (C#).
-+ El analisis/resumen de las cartas expuestas debe ser en cliente (JS). 
++ El análisis/resumen de las cartas expuestas debe ser en cliente (JS). 
    + Cuantos pares?
-   + Cuantos trios?
+   + Cuantos tríos?
    + Hay escalera? 
-   + Hay poker?
+   + Hay póker?
    + Hay Color?
 
 #### Info
