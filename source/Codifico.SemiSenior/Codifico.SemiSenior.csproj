@@ -66,7 +66,76 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\cards\10_of_clubs.png" />
+    <Content Include="Content\cards\10_of_diamonds.png" />
+    <Content Include="Content\cards\10_of_hearts.png" />
+    <Content Include="Content\cards\10_of_spades.png" />
+    <Content Include="Content\cards\2_of_clubs.png" />
+    <Content Include="Content\cards\2_of_diamonds.png" />
+    <Content Include="Content\cards\2_of_hearts.png" />
+    <Content Include="Content\cards\2_of_spades.png" />
+    <Content Include="Content\cards\3_of_clubs.png" />
+    <Content Include="Content\cards\3_of_diamonds.png" />
+    <Content Include="Content\cards\3_of_hearts.png" />
+    <Content Include="Content\cards\3_of_spades.png" />
+    <Content Include="Content\cards\4_of_clubs.png" />
+    <Content Include="Content\cards\4_of_diamonds.png" />
+    <Content Include="Content\cards\4_of_hearts.png" />
+    <Content Include="Content\cards\4_of_spades.png" />
+    <Content Include="Content\cards\5_of_clubs.png" />
+    <Content Include="Content\cards\5_of_diamonds.png" />
+    <Content Include="Content\cards\5_of_hearts.png" />
+    <Content Include="Content\cards\5_of_spades.png" />
+    <Content Include="Content\cards\6_of_clubs.png" />
+    <Content Include="Content\cards\6_of_diamonds.png" />
+    <Content Include="Content\cards\6_of_hearts.png" />
+    <Content Include="Content\cards\6_of_spades.png" />
+    <Content Include="Content\cards\7_of_clubs.png" />
+    <Content Include="Content\cards\7_of_diamonds.png" />
+    <Content Include="Content\cards\7_of_hearts.png" />
+    <Content Include="Content\cards\7_of_spades.png" />
+    <Content Include="Content\cards\8_of_clubs.png" />
+    <Content Include="Content\cards\8_of_diamonds.png" />
+    <Content Include="Content\cards\8_of_hearts.png" />
+    <Content Include="Content\cards\8_of_spades.png" />
+    <Content Include="Content\cards\9_of_clubs.png" />
+    <Content Include="Content\cards\9_of_diamonds.png" />
+    <Content Include="Content\cards\9_of_hearts.png" />
+    <Content Include="Content\cards\9_of_spades.png" />
+    <Content Include="Content\cards\ace_of_clubs.png" />
+    <Content Include="Content\cards\ace_of_diamonds.png" />
+    <Content Include="Content\cards\ace_of_hearts.png" />
+    <Content Include="Content\cards\ace_of_spades.png" />
+    <Content Include="Content\cards\ace_of_spades2.png" />
+    <Content Include="Content\cards\black_joker.png" />
+    <Content Include="Content\cards\cardback.png" />
+    <Content Include="Content\cards\jack_of_clubs.png" />
+    <Content Include="Content\cards\jack_of_clubs2.png" />
+    <Content Include="Content\cards\jack_of_diamonds.png" />
+    <Content Include="Content\cards\jack_of_diamonds2.png" />
+    <Content Include="Content\cards\jack_of_hearts.png" />
+    <Content Include="Content\cards\jack_of_hearts2.png" />
+    <Content Include="Content\cards\jack_of_spades.png" />
+    <Content Include="Content\cards\jack_of_spades2.png" />
+    <Content Include="Content\cards\king_of_clubs.png" />
+    <Content Include="Content\cards\king_of_clubs2.png" />
+    <Content Include="Content\cards\king_of_diamonds.png" />
+    <Content Include="Content\cards\king_of_diamonds2.png" />
+    <Content Include="Content\cards\king_of_hearts.png" />
+    <Content Include="Content\cards\king_of_hearts2.png" />
+    <Content Include="Content\cards\king_of_spades.png" />
+    <Content Include="Content\cards\king_of_spades2.png" />
+    <Content Include="Content\cards\queen_of_clubs.png" />
+    <Content Include="Content\cards\queen_of_clubs2.png" />
+    <Content Include="Content\cards\queen_of_diamonds.png" />
+    <Content Include="Content\cards\queen_of_diamonds2.png" />
+    <Content Include="Content\cards\queen_of_hearts.png" />
+    <Content Include="Content\cards\queen_of_hearts2.png" />
+    <Content Include="Content\cards\queen_of_spades.png" />
+    <Content Include="Content\cards\queen_of_spades2.png" />
+    <Content Include="Content\cards\red_joker.png" />
     <Content Include="packages.config" />
+    <Content Include="Content\cards\desktop.ini" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -80,9 +149,7 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Content\cards\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

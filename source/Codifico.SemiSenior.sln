@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Codifico.SemiSenior", "Codifico.SemiSenior\Codifico.SemiSenior.csproj", "{E7BEEE4C-1F0F-496C-B838-F21352B521F2}"
 EndProject
@@ -11,6 +11,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Help", "Help", "{A4C48062-1
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{1F343359-8D97-4FB6-9BD1-B0CF426AF835}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Codifico.LogicPoker", "Codifico.LogicPoker\Codifico.LogicPoker.csproj", "{CDCAD178-C5E5-4B12-991A-F26DA934A0CF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -22,11 +24,16 @@ Global
 		{E7BEEE4C-1F0F-496C-B838-F21352B521F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E7BEEE4C-1F0F-496C-B838-F21352B521F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E7BEEE4C-1F0F-496C-B838-F21352B521F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDCAD178-C5E5-4B12-991A-F26DA934A0CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDCAD178-C5E5-4B12-991A-F26DA934A0CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDCAD178-C5E5-4B12-991A-F26DA934A0CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDCAD178-C5E5-4B12-991A-F26DA934A0CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{E7BEEE4C-1F0F-496C-B838-F21352B521F2} = {1F343359-8D97-4FB6-9BD1-B0CF426AF835}
+		{CDCAD178-C5E5-4B12-991A-F26DA934A0CF} = {1F343359-8D97-4FB6-9BD1-B0CF426AF835}
 	EndGlobalSection
 EndGlobal
