@@ -41,10 +41,14 @@
         /// <returns></returns>
         public static PokerCard GetCardRandom()
         {
-            Random RndCard = new Random();
+            Random RndCard = new Random((int)DateTime.Now.Ticks & 0x0000FFFF);
 
-            int Symbol = RndCard.Next(1, 4);
-            int Number = RndCard.Next(2, 14);
+            int Symbol = RndCard.Next(1, 5);
+
+            RndCard = new Random((int)DateTime.Now.Ticks & 0x0000FFFF);
+
+            int Number = RndCard.Next(2, 15);
+
 
             PokerCard Card = new PokerCard();
             Card.Number = Number;

@@ -17,6 +17,8 @@
         /// </summary>
         private static List<PokerCard> listCard = new List<PokerCard>();
 
+        private static List<PokerCard> listResumen = new List<PokerCard>();
+
         /// <summary>
         /// agrega las cartas a listado de cartas disponibles
         /// </summary>
@@ -31,6 +33,7 @@
             if (CardsFind == null || CardsFind.Count() <= 0)
             {
                 listCard.Add(Card);
+                listResumen.Add(Card);
             }
             else
             {
@@ -48,6 +51,7 @@
         {
             int sizeCard = 1;
 
+            listCard = new List<PokerCard>();
             while (sizeCard <= 5)
             {
                 PokerCard randomCard = PokerCard.GetCardRandom();
@@ -60,6 +64,21 @@
 
             return listCard.ToArray();
 
+        }
+
+        /// <summary>
+        /// Obtiene un resumen de las ultimas cartas.
+        /// </summary>
+        /// <returns></returns>
+        public static PokerCard[] GetResume()
+        {
+            if(listResumen.Count() > 50)
+            {
+                int count = listResumen.Count() - 50;
+                listResumen.RemoveRange(0, count);
+            }
+
+            return listResumen.ToArray();
         }
 
     }

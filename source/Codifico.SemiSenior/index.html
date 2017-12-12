@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Maquina de Poker</title>
+    <script src="Scripts/jquery-1.9.1.min.js"></script>
+    <link href="Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <script src="Scripts/LogicPoker.js"></script>
+    <meta charset="utf-8" />
+</head>
+<body style="background-color:#00008c;" onload="ValidateCard()">
+    <div class="row" style="margin-top:20px">
+        <div class="col-md-9 col-md-offset-2">
+            <div class="col-md-9"> <img src="Content/cards/Estadisticas.png" style="width:100%" /> </div>
+        </div>
+    </div>
+    <div class="row" style="margin-top:20px">
+        <div class="col-md-8 col-md-offset-2">
+            <div class="row">
+                <div class="col-md-2"> <img id="image0" src="Content/cards/cardback.png" style="width:100%" /> </div>
+                <div class="col-md-2"> <img id="image1" src="Content/cards/cardback.png" style="width:100%" /></div>
+                <div class="col-md-2"> <img id="image2" src="Content/cards/cardback.png" style="width:100%" /> </div>
+                <div class="col-md-2"> <img id="image3" src="Content/cards/cardback.png" style="width:100%" /></div>
+                <div class="col-md-2"> <img id="image4" src="Content/cards/cardback.png" style="width:100%" /></div>
+            </div>
+        </div>
+    </div>
+    <div class="row" style="margin-top:20px">
+        <div class="col-md-8 col-md-offset-2">
+            <div class="row">
+                <div class="col-md-8">
+                    <h3 style="color:red">Estadística:</h3>
+                    <span style="color: red" id="Estadistica"></span>
+                </div>
+                <div class="col-md-2">
+                    <input type="submit" style="color:white; background-color:red" onclick="ValidateCard()" value="Cargar Cartas" class="form-control" />
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="row" style="margin-top:20px">
+        <div class="col-md-8 col-md-offset-2">
+            <h3 style="color:red">Resumen de cartas:</h3>
+            <span style="color: red; margin-bottom:20px;" > Ultimas 100 Cartas</span>
+            <div id="resumen"></div>
+        </div>
+    </div>
+</body>
+</html>
